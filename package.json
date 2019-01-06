@@ -1,0 +1,20 @@
+{
+    "name": "db-test",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "./node_modules/.bin/tsc",
+        "start": "npm run build&&node ./dist/index.js"
+    },
+    "devDependencies": {
+        "ts-node": "^7.0.1",
+        "typescript": "^3.2.2",
+        "mysql": "2.16.0"
+    },
+    "dependencies": {
+        "@types/commander": "^2.11.0",
+        "@types/node": "10.12.18",
+        "@types/mysql": "2.15.5",
+        "commander": "^2.11.0"
+    }
+}

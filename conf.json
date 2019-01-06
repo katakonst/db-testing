@@ -1,0 +1,21 @@
+{
+    "db_credentials": {
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "root",
+        "database": "test"
+    },
+    "db_state": {
+        "table_state": [
+            {
+                "name": "new_table",
+                "contents": [
+                    {
+                        "id": "/*/",
+                        "name": "test"
+                    }
+                ]
+            }
+        ]
+    }
+}
